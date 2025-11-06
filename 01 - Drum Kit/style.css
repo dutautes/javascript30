@@ -1,0 +1,55 @@
+body {
+    background-image: url(assets/bocchi.jpg);
+    background-size: cover;
+    height: 720px;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+}
+
+.key {
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(176, 176, 176, 0.5);
+    transition: all .04s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: all .07s; 
+    -moz-transition: all .04s;
+    -ms-transition: all .04s;
+    -o-transition: all .04s;
+}
+
+.key>kbd {
+    font-size: 2rem;
+}
+
+.key>span {
+    font-size: 1.25rem;
+    color: cyan;
+}
+
+.playing {
+    border: 5px solid cyan;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
